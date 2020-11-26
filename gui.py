@@ -11,7 +11,7 @@ root.title("Wiki Bot")
 root.geometry("450x250")
 root.iconbitmap("bot.ico")
 
-image = Image.open('logo.png')
+image = Image.open('top.png')
 image = image.resize((407, 183), Image.ANTIALIAS)
 my_img = ImageTk.PhotoImage(image)
 logo = Label(image=my_img)
